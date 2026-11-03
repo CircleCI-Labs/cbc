@@ -13,7 +13,7 @@ executors:
 
   jdk17:
     docker:
-      - image: cimg/openjdk:17.0.3
+      - image: cimg/openjdk:17.0.21
     resource_class: xlarge
 
   python38:
